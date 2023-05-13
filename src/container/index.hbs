@@ -1,15 +1,80 @@
-{{!-- 
-Це код container файлу для index сторінки, 
+{{!--
+Це код container файлу для index сторінки,
 в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
- --}}
-
+--}}
+{{!--
 <div class="p-5">
     <h1>USB хаб Type C 12 в 1 HDMI VGA AUX 3.5 mm</h1>
 
     <button type="button" class="btn btn-primary">Купити</button>
-</div>
+</div> --}}
 
-{{!-- 
-    Цей код містить лише те, що буде виводитись в <body>
+{{!--
+Цей код містить лише те, що буде виводитись в
+
+<body>
     Адже наш layout/default.hbs має вже структуру HTML
---}}
+    --}}
+
+
+    <div class="card p-5 m-5 card-dark">
+        <ul>
+            <li class="item">1</li>
+            <div class="item">Test</div>
+            <li class="item">2</li>
+            <li class="item">3</li>
+            <li class="item">4</li>
+        </ul>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <ul>
+            <div class="item1">Test</div>
+        </ul>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <div class="item">First</div>
+        <p class="item">Second</p>
+        <article class="item">Last</article>
+        <div class="item">First</div>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <div class="omg">First</div>
+        <div class="omg">Sevond</div>
+        <strike class="omg">Test strong</strike>
+        <p class="omg">First</p>
+        <p class="omg">Sevond</p>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <div class="nth">First</div>
+        <p class="nth">Second</p>
+        <article class="nth">Last</article>
+        <div class="nth">First</div>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <div class="nthoftype">First</div>
+        <p class="nthoftype">Second</p>
+        <article class="nthoftype">Last</article>
+        <div class="nthoftype">First</div>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <div class="nthlastoftype">First</div>
+        <p class="nthlastoftype">Second</p>
+        <article class="nthlastoftype">Last</article>
+        <div class="nthlastoftype">First</div>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <em>NOTtest</em>
+        <em class="big">NOTtest</em>
+    </div>
+
+    <div class="card p-5 m-5 card-dark">
+        <em></em>
+        <em class="empty">NOTtest</em>
+    </div>

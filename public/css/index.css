@@ -5,3 +5,57 @@ html {
 body {
   background: #fff;
 }
+
+
+.card-dark {
+  background: #504f4f;
+}
+
+.item {
+  color: green;
+}
+
+.item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  color: red;
+}
+
+.item1:only-child {
+  color: purple;
+}
+
+.item:first-of-type {
+  color: aqua;
+}
+
+.omg:last-of-type {
+  color: blue;
+}
+
+.omg:only-of-type {
+  color: red;
+}
+
+.nth:nth-child(2) {
+  color: yellow;
+}
+
+.nthoftype:nth-of-type(2) {
+  color: darkmagenta;
+}
+
+.nthlastoftype:nth-last-of-type(2) {
+  color: darkorange;
+}
+
+em:not(.big) {
+  color: brown;
+}
+
+em:empty {
+  height: 10px;
+  background: red;
+}
