@@ -1,0 +1,17 @@
+html {
+    max-width: 720px;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+  
+
+.input-dark {
+    color: darkblue;
+}
+
+.input-dark[required] {
+    background: red;
+}
