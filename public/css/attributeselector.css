@@ -1,17 +1,68 @@
 html {
-    max-width: 720px;
-  }
-  
-  body {
-    background: #fff;
-  }
-  
-  
+  max-width: 720px;
+}
+
+body {
+  background: #fff;
+}
+
+
 
 .input-dark {
-    color: darkblue;
+  color: darkblue;
 }
 
 .input-dark[required] {
-    background: red;
+  background: red;
+}
+
+.input-dark[type='number'] {
+  background: green;
+}
+
+.small-img[alt~="small"] {
+  height: 500px;
+}
+
+a[rel~="external"] {
+  color: aqua;
+}
+
+button[class|="btn"] {
+  background: rgb(240, 237, 237);
+}
+
+a[class^="btn"] {
+  background: red;
+}
+
+a[class*="btn"] {
+  background: red;
+}
+
+a[class$="btn"] {
+  background: red;
+}
+
+.btn::first-letter {
+  color: coral;
+}
+
+.big-text::first-line {
+  color: salmon;
+}
+
+.input-darkplace::placeholder {
+  color: green;
+  background: blue;
+}
+
+.big-text::before {
+  content: '$$$';
+  color: green;
+}
+
+.big-text::after {
+  content: '###';
+  color: blue;
 }
