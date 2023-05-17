@@ -1,0 +1,35 @@
+#test:target {
+    color: red;
+}
+
+.link:link {
+    color: red;
+}
+
+.link:hover {
+    color: green;
+}
+
+.link:active {
+    color: purple;
+}
+
+input {
+    background: gray;
+}
+
+input:focus {
+    background: red;
+}
+
+.focuswithin:focus-within {
+background: rebeccapurple;
+}
+
+.card:lang(en) {
+    background: blue;
+}
+
+.card:lang(fr) {
+    background: green;
+}
