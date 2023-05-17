@@ -23,7 +23,7 @@ input:focus {
 }
 
 .focuswithin:focus-within {
-background: rebeccapurple;
+    background: rebeccapurple;
 }
 
 .card:lang(en) {
@@ -32,4 +32,57 @@ background: rebeccapurple;
 
 .card:lang(fr) {
     background: green;
+}
+
+button {
+    background-color: greenyellow;
+}
+
+button:enabled {
+    background-color: green;
+}
+
+button:disabled {
+    color: red;
+    background-color: aqua;
+}
+
+.inp:read-write {
+    background-color: blue;
+}
+
+.inp:read-only {
+    background-color: red;
+}
+
+input[type='checkbox']:checked~span {
+    background: red;
+}
+
+.valid:valid {
+    background-color: yellow;
+}
+
+.valid:invalid {
+    background-color: goldenrod;
+}
+
+.validopt:optional {
+    background: green;
+}
+
+.number:focus {
+    background-color: gray;
+}
+
+.number:out-of-range {
+    background-color: red;
+}
+
+.number:in-range {
+    background-color: green;
+}
+
+input:placeholder-shown {
+    background-color: pink;
 }
